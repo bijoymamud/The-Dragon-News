@@ -8,17 +8,17 @@ const RightNav = () => {
     return (
         <div>
             <div>
-                <h4>Login with</h4>
-                <Button variant="outline-primary"> <FaGoogle></FaGoogle>Login with Google</Button>
-                <Button className='mt-2' variant="outline-secondary"> <FaGithub />Login with GitHub</Button>
+                <h4 className='text-center fw-bold'>Login with</h4>
+                <Button className='w-100' variant="outline-primary"> <FaGoogle className='me-2'></FaGoogle><span className='font-monospace fw-bold fs-6'>Login with Google</span></Button>
+                <Button className='mt-2 w-100' variant="outline-secondary"> <FaGithub className='me-2'></FaGithub><span className='font-monospace fw-bold fs-6 text-black '>Login with GitHub</span></Button>
             </div>
 
             <div className='mt-5'>
-                <h4>Find Us On</h4>
+                <h4 className='mb-3 fs-4 fw-bold '>Find Us On</h4>
                 <ListGroup>
-                    <ListGroup.Item> <FaFacebook></FaFacebook> Facebook</ListGroup.Item>
-                    <ListGroup.Item> <FaTwitter></FaTwitter> Twitter</ListGroup.Item>
-                    <ListGroup.Item> <FaInstagram></FaInstagram> Instagram</ListGroup.Item>
+                    <ListGroup.Item> <FaFacebook className='me-2 fs-4 '></FaFacebook> <span className='font-monospace  fs-4  text-secondary fw-bold'>Facebook</span></ListGroup.Item>
+                    <ListGroup.Item> <FaTwitter className='me-2 fs-4  '></FaTwitter> <span className='font-monospace fs-4 text-secondary fw-bold'>Twitter</span></ListGroup.Item>
+                    <ListGroup.Item> <FaInstagram className='me-2 fs-4 '></FaInstagram> <span className='font-monospace fs-4  text-secondary fw-bold'>Instagram</span></ListGroup.Item>
 
                 </ListGroup>
             </div>
