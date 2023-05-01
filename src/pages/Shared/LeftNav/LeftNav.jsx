@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+import LeftNavUnder from './LeftNavUnder';
 
 const LeftNav = () => {
 
@@ -32,6 +33,8 @@ const LeftNav = () => {
                     </p>)
                 }
             </div>
+
+            <LeftNavUnder></LeftNavUnder>
         </div>
     );
 };
